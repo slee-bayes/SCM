@@ -1,4 +1,4 @@
-This repo is developed for demonstrating the simulation study in Lee et al. (2021) "A Sequential Choice Model for Multiple Discrete Demand". 
+This repo provides the source codes the base case simulation study in Lee et al. (2021) "A Sequential Choice Model for Multiple Discrete Demand". 
 
 (1) Run_SCM_202105.R
 : This is the main R code where we (i) simulate data by calling "Sim_SCM_202105.R" and (ii) estimate the sequential choice model by calling "Est_SCM_202105.R".
