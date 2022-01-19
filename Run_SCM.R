@@ -129,7 +129,7 @@ est_setting=list(n_edraw=n_edraw,ss_all=ss_all,ind_est_group=ind_est_group,ind_f
 R=5000; keep=1; n_report=50; 
 Mcmc=list(R=R,keep=keep,n_report=n_report,Thetas0=Thetas0,Vtheta0=Vtheta0,Delta0=Delta0,est_setting=est_setting)
 
-source("Est_SCM_202105.R")
+source("Est_SCM.R")
 result=est_scm(Data=Data,Prior=Prior,Mcmc=Mcmc)
 
 
