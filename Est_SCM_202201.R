@@ -1,4 +1,4 @@
-##### A Sequential Choice Model for Multiple Discrete Demand (Lee et al. (2021))
+##### A Sequential Choice Model for Multiple Discrete Demand (Lee et al. (2022))
 ##### Estimation Code
 ##### last update 2022.01
   
