@@ -1,10 +1,10 @@
-##### A Sequential Choice Model for Multiple Discrete Demand (Lee et al. (2021))
+##### A Sequential Choice Model for Multiple Discrete Demand (Lee et al. (2022))
 ##### Data Simulation Code
 ##### Data Generation by the Sequential Choice Model
     # 1. starting from all zeros
     # 2. check the bang for the buck for each item and "buy or remove" one unit of the alternative whose bang for the buck is the best
     # 3. repeat 2. until (i)there is no more alternative with a positive bang for the buck or (ii)constrained by the budget
-##### update: 2021.05
+##### update: 2022.01
 
 sim_scm=function(n_hh,n_obs,mu_theta,sd_theta,fixparam,pr_setting){
 
