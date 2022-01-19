@@ -1,6 +1,6 @@
-##### A Sequential Choice Model for Multiple Discrete Demand (Lee et al. (2021))
+##### A Sequential Choice Model for Multiple Discrete Demand (Lee et al. (2022))
 ##### Main Code
-##### last update 2021.05
+##### last update 2022.01
 rm(list=ls(all=TRUE))
 
 library(bayesm)
