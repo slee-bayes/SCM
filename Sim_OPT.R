@@ -1,5 +1,5 @@
 ##### A Sequential Choice Model for Multiple Discrete Demand (Lee et al. (2022))
-##### Data Simulation Code by an Exhaustive Search of the Entire Feasible Set
+##### Data Generation Code by an Exhaustive Search of the Entire Feasible Set
 ##### update: 2022.01
 
 sim_opt=function(n_hh,n_obs,mu_theta,sd_theta,fixparam,pr_setting){
