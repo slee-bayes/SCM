@@ -7,7 +7,7 @@ This repo provides the source codes for the base case simulation study in Lee et
 : This R code simulates a panel dataset of multiple discrete demand by using the sequential search process in Lee et al. (2021).
 
 (3) Sim_OPT_202105.R
-: This R code simulates a panel dataset of multiple discrete demand by using the exhaustive grid search, which gaurantees the optimality of the simulated data. This is used for evaluating the optimality of the sequential choice model.
+: This R code simulates a panel dataset of multiple discrete demand by using an exhaustive grid search, which gaurantees the optimality of the simulated data. This is used for evaluating the optimality of the sequential choice model.
 
 (4) Est_SCM_202105.R
 : This R code estimates the sequential choice model by a Bayesian MCMC procedure.
