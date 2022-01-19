@@ -41,13 +41,13 @@ sd_theta=rep(1,n_param); sd_theta # std.dev. of the heterogeneity distribution
 seed_value=207 # seed value for random generation
 
 # simulation by the sequential choice model
-source("Sim_SCM_202105.R") 
+source("Sim_SCM.R") 
 set.seed(seed_value)
 SIMDATA_SCM=sim_scm(n_hh,n_obs,mu_theta,sd_theta,fixparam,pr_setting)
 round(mu_theta-colMeans(SIMDATA_SCM$IndParam),3) 
 
 # simulation by exhaustive search (guarantees the optimal solution)
-source("Sim_OPT_202105.r") 
+source("Sim_OPT.r") 
 set.seed(seed_value)
 SIMDATA_OPT=sim_opt(n_hh,n_obs,mu_theta,sd_theta,fixparam,pr_setting)
 round(mu_theta-colMeans(SIMDATA_OPT$IndParam),3)
