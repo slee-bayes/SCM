@@ -11,3 +11,6 @@ This repo provides the source codes for the base case simulation study in Lee et
 
 (4) Est_SCM_202105.R
 : This R code estimates the sequential choice model by a Bayesian MCMC procedure.
+
+
+Sunghoon Edit
